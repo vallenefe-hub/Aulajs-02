@@ -48,3 +48,6 @@ document.getElementById('OperadorE').textContent = `${primeiroNumero} >= ${segun
 
 resultado = !((primeiroNumero >= segundoNumero) && (segundoNumero > 3));
 document.getElementById('OperadorNAO').textContent = `!(${primeiroNumero} >= ${segundoNumero} && ${segundoNumero} > 3)  = ${resultado} `;
+
+resultado = primeiroNumero ** segundoNumero
+document.getElementById('Potencia').textContent = `${primeiroNumero} ** ${segundoNumero} = ${resultado} `;
